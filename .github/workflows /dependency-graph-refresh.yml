@@ -1,0 +1,17 @@
+name: Dependency Graph Refresh (Full Transitive)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dependency-graph-refresh
+  cancel-in-progress: true
+
+jobs:
+  generate-sbom:
+    uses: bcgov/bc-scaffold/.github/workflows/dependency-graph-refresh.yml@feature/security-remediation
+    with:
+      artifact_retention_days: 7
