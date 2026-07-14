@@ -32,7 +32,7 @@
     "popper.js": "^1.16.1",
     "save": "^2.4.0",
     "showdown": "~1.9.1",
-    "ts-loader": "^6.2.2",
+    "ts-loader": "^9.6.2",
     "underscore": "^1.13.4",
     "vue": "^2.7.8",
     "vue-axios": "^3.4.1",
