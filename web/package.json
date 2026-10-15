@@ -25,7 +25,7 @@
     "axios-auth-refresh": "^3.3.6",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.15.0",
-    "core-js": "^3.24.0",
+    "core-js": "^3.49.0",
     "jquery": "^3.6.0",
     "moment-timezone": "^0.5.34",
     "node-sass": "^7.0.0",
